@@ -1,0 +1,12 @@
+<div id="<%= dom_id order %>">
+  <p>
+    <strong>User:</strong>
+    <%= User.find(order.user_id).name %>
+  </p>
+
+  <p>
+    <strong>Food:</strong>
+    <%= Food.find(order.food_id).name %>
+  </p>
+
+</div>
